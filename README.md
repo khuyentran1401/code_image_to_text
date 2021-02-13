@@ -9,7 +9,7 @@ Typing
 ```bash
 python code_recognizer.py -f name_of_your_image_file -e .py
 ```
-will generate this output
+will generate this output on your terminal
 ![image](images/output.png)
 
 and save the code to `name_of_your_image_file.py` in your current directory.
