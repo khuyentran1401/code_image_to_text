@@ -9,7 +9,7 @@ Type:
 ```bash
 python -m image_converter images/carbon.png .py
 ```
-will convert the image to text like below and save the code to the file named `carbon.py`.
+This will convert the image to text like below and save the code to the file named `carbon.py`.
 
 ```python
 class DataLoader:
