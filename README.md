@@ -3,7 +3,7 @@
 Convert code image into text.
 
 For example, if you want to extract code from the image named `images/carbon.png`.
-![image](images/carbon.png)
+![image](https://github.com/khuyentran1401/code_image_to_text/blob/master/images/carbon.png)
 
 Type:
 ```bash

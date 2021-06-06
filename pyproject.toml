@@ -1,8 +1,16 @@
 [tool.poetry]
-name = "code_image_to_text"
-version = "0.1.0"
+name = "code-image-to-text"
+version = "0.1.1"
 description = "Convert code image to text"
 authors = ["khuyentran1401 <khuyentran1476@gmail.com>"]
+homepage = "https://github.com/khuyentran1401/code_image_to_text"
+repository = "https://github.com/khuyentran1401/code_image_to_text"
+keywords = ["computer vision", "code"]
+readme = "README.md"
+license = "Apache-2.0"
+packages = [
+    { include = "image_converter"},
+]
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
