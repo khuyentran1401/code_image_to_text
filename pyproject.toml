@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "code-image-to-text"
-version = "0.1.1"
+version = "0.1.2"
 description = "Convert code image to text"
 authors = ["khuyentran1401 <khuyentran1476@gmail.com>"]
 homepage = "https://github.com/khuyentran1401/code_image_to_text"
