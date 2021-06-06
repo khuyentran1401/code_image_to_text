@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "code_image_to_text"
+version = "0.1.0"
+description = "Convert code image to text"
+authors = ["khuyentran1401 <khuyentran1476@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+opencv-python = "^4.5.2"
+pytesseract = "^0.3.7"
+rich = "^10.2.2"
+typer = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+icecream = "^2.1.0"
+loguru = "^0.5.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

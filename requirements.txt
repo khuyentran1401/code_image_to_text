@@ -1,5 +1,0 @@
-opencv_python==4.5.1.48
-pytesseract==0.3.7
-pytest==3.2.2
-icecream==2.1.0
-rich==9.10.0

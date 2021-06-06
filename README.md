@@ -1,22 +1,34 @@
 # Code Image to Text Converter
 
-Convert code in image to text and save it to a file.
+Convert code image into text.
 
-For example, if you want to extract code from this image.
-![image](images/carbon_2.png)
+For example, if you want to extract code from the image named `images/carbon.png`.
+![image](images/carbon.png)
 
-Typing
+Type:
 ```bash
-python code_recognizer.py -f name_of_your_image_file -e .py
+python -m image_converter images/carbon.png .py
 ```
-will generate this output in your terminal
-![image](images/output.png)
+will convert the image to text like below and save the code to the file named `carbon.py`.
 
-and save the code to `name_of_your_image_file.py` in your current directory.
+```python
+class DataLoader:
 
-Note that there is no tab in the output code so you will need to add indentation to make it look like the original code.
+	 def __init__(self, data_dir: str):
+		 self.data_dir = data_dir
 
-# Install dependencies
+		 print("Instance is created")
+	 def __call__(self):
+
+		 print("Instance is called")
+
+data_loader = DataLoader('my_data_dir')
+
+data_loader()
+
+```
+
+# Installation
 ## Intall Tesseract
 * Linux
 ```bash
@@ -27,6 +39,10 @@ sudo apt-get install libtesseract-dev
 
 * Windows
 Install from [here](https://github.com/UB-Mannheim/tesseract/wiki)
+## Install code-image-to-text
+```bash
+pip install code-image-to-text
+```
 
 
 
