@@ -77,9 +77,9 @@ def get_file_name(dir_name: str):
 
 def save_code(filename: str, output: str, extension: str, clean_code: str):
     if not output:
-        file_name = get_file_name(filename)
+        output = get_file_name(filename)
 
-    file = Path(file_name + extension)
+    file = Path(output + extension)
     file.write_text(clean_code)
     return file
 
